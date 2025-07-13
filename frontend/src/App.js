@@ -30,9 +30,9 @@ function App() {
         transition={{ duration: 1 }}
       >
         <h3 className="mb-4 text-center">INICIAR SESIÓN</h3>
-         <p>HOLA ESTE ES MI NUEVO CAMBIO</p>
+         <p>HOLA, ESTE ES MI NUEVO CAMBIO</p>
+        <p> ELABORA:IRMA GM</p>
        
-
         <input
           className="form-control mb-3"
           placeholder="Usuario"
