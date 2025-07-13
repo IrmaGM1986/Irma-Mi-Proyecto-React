@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 function App() {
+
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
@@ -28,7 +29,10 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h3 className="mb-4 text-center">Iniciar Sesión</h3>
+        <h3 className="mb-4 text-center">INICIAR SESIÓN</h3>
+         <p>HOLA, ESTE ES MI NUEVO CAMBIO</p>
+          <p>ELABORA:IRMA GM</p>
+
         <input
           className="form-control mb-3"
           placeholder="Usuario"
